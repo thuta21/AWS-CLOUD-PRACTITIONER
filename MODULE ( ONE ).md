@@ -51,7 +51,9 @@ KEY CONCEPT ( You only pay what you use )
 	   
 	   1. Public access to resources makes the public cloud less secure, with no guarantee of high-level security.
 	   2. Since it is used by many, the public cloud offers limited customization options to meet individual requirements.
-	      
+	    
+	-----------------------------------------------------------------
+  
 	2. On-Premises Deployment ( Private Cloud )
 	   
 	   The private cloud is a cloud computing model where resources are deployed on-premises using virtualization and resource management tools. It is also known as the "private cloud" and provides dedicated resources within a secure environment managed by an organization’s IT department.
@@ -72,6 +74,8 @@ KEY CONCEPT ( You only pay what you use )
 	   1. Limited scalability compared to public clouds due to fewer clients and resources.
 	   2. Higher costs associated with maintaining a personalized and dedicated infrastructure.
 	    
+	-----------------------------------------------------------------
+	    
 	3. Hybrid Deployment
 	   
 	   A hybrid deployment connects infrastructure and applications between cloud-based resources and existing on-premises resources. This model combines public and private cloud environments, allowing organizations to extend their infrastructure into the cloud while maintaining connections with their internal systems.
@@ -90,3 +94,4 @@ KEY CONCEPT ( You only pay what you use )
 	   1. Managing a combination of public and private clouds can be challenging due to the complexity involved.
 	   2. Data transmission through the public cloud may result in slower performance and increased latency.
 	        
+------------------------------------------------------------------------
