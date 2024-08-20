@@ -17,6 +17,8 @@ KEY CONCEPT ( You only pay what you use )
 	4. Provides easy access to servers, storage, databases, and application services over the Internet.
 	5. Platforms like Amazon Web Services (AWS) own and maintain the hardware, while users provision and use resources through a web application.
 
+------------------------------------------------------------------------
+
 - Advantages of Cloud Computing.
 	1. Pay only for what you use, eliminating the need for large upfront investments in hardware.
 	2. Benefit from cost efficiencies as cloud providers serve many customers, reducing costs compared to managing your own infrastructure.
@@ -24,6 +26,8 @@ KEY CONCEPT ( You only pay what you use )
 	4. Quickly deploy and manage resources within minutes, enhancing business agility.
 	5. Spend less time managing IT infrastructure and focus more on core business activities.
 	6. Deploy applications closer to your customers globally, reducing latency and improving performance.
+
+------------------------------------------------------------------------
 
 - Cloud Computing Deployment Model
 	1. Cloud-Based Deployment ( Public Cloud )
