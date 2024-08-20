@@ -2,10 +2,14 @@ Content
 
 1. What is Cloud Computing?
 2. Advantages of Cloud Computing
-3. Cloud Computing Deployment Model
+3. Deployment Model
 	1. Cloud-Based Deployment ( Public Cloud )
 	2. On-Premises Deployment ( Private Cloud )
 	3. Hybrid Deployment
+4. Service Model
+	1. IaaS ( infrastructure as a service )
+	2. PaaS ( platform as a service )
+	3. SaaS ( software as a service )
 
 ------------------------------------------------------------------------
 KEY CONCEPT ( You only pay what you use )
@@ -29,7 +33,7 @@ KEY CONCEPT ( You only pay what you use )
 
 ------------------------------------------------------------------------
 
-- Cloud Computing Deployment Model
+- Deployment Model
 	1. Cloud-Based Deployment ( Public Cloud )
 	   
 	   The public cloud is a cloud computing model where cloud infrastructure services are provided over the internet to the general public or large industry groups. 
@@ -95,3 +99,22 @@ KEY CONCEPT ( You only pay what you use )
 	   2. Data transmission through the public cloud may result in slower performance and increased latency.
 	        
 ------------------------------------------------------------------------
+
+- Service Model
+	1. IaaS ( infrastructure as a service )
+	   
+	   IaaS is also known as **Hardware as a Service (HaaS)**. It is a computing infrastructure managed over the internet. The main advantage of using IaaS is that it helps users to avoid the cost and complexity of purchasing and managing the physical servers.
+	   
+	   Examples : DigitalOcean, Linode, Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE), Rackspace, and Cisco Metacloud
+	   
+	2. PaaS ( platform as a service )
+	   
+	   PaaS cloud computing platform is created for the programmer to develop, test, run, and manage the applications.
+	   
+	   **Example:** AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos, Magento Commerce Cloud, and OpenShift.
+	   
+	3. SaaS ( software as a service )
+	   
+	   SaaS is also known as "**on-demand software**". It is a software in which the applications are hosted by a cloud service provider. Users can access these applications with the help of internet connection and web browser.
+	   
+	   **Example:** BigCommerce, Google Apps, Salesforce, Dropbox, ZenDesk, Cisco WebEx, ZenDesk, Slack, and GoToMeeting.
