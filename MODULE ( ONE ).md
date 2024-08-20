@@ -18,4 +18,4 @@ KEY CONCEPT ( You only pay what you use )
 
 - Cloud Computing Deployment Model
 	1. Cloud-Based Deployment 
-		testing one thwo three
+		-  testing one thwo 
