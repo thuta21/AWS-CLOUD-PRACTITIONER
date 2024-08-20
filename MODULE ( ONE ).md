@@ -1,3 +1,11 @@
+Content 
+
+1. What is Cloud Computing?
+2. Advantages of Cloud Computing
+3. Cloud Computing Deployment Model
+	1. Cloud-Based Deployment ( Public Cloud )
+	2. On-Premises Deployment ( Private Cloud )
+	3. Hybrid Deployment
 
 ------------------------------------------------------------------------
 KEY CONCEPT ( You only pay what you use )
@@ -9,7 +17,7 @@ KEY CONCEPT ( You only pay what you use )
 	4. Provides easy access to servers, storage, databases, and application services over the Internet.
 	5. Platforms like Amazon Web Services (AWS) own and maintain the hardware, while users provision and use resources through a web application.
 
-- Advantages Of Cloud Computing.
+- Advantages of Cloud Computing.
 	1. Pay only for what you use, eliminating the need for large upfront investments in hardware.
 	2. Benefit from cost efficiencies as cloud providers serve many customers, reducing costs compared to managing your own infrastructure.
 	3. Easily scale resources up or down based on demand without overcommitting to capacity.
@@ -59,3 +67,22 @@ KEY CONCEPT ( You only pay what you use )
 	   
 	   1. Limited scalability compared to public clouds due to fewer clients and resources.
 	   2. Higher costs associated with maintaining a personalized and dedicated infrastructure.
+	    
+	3. Hybrid Deployment
+	   
+	   A hybrid deployment connects infrastructure and applications between cloud-based resources and existing on-premises resources. This model combines public and private cloud environments, allowing organizations to extend their infrastructure into the cloud while maintaining connections with their internal systems.
+	   
+	   1. Bridges public and private clouds with proprietary software, offering the security of a private cloud and the scalability and cost savings of a public cloud.
+	   2. Allows organizations to move data and applications between different clouds based on their needs, offering personalized solutions.
+	   
+	   Advantages
+	   
+	   1. Enables businesses to design tailored solutions that meet specific requirements, balancing control and flexibility.
+	   2. Leverages public cloud scalability, where extra capacity is paid for only when needed.
+	   3. Data is properly segmented, reducing the risk of data theft.
+
+	   Disadvantages
+	   
+	   1. Managing a combination of public and private clouds can be challenging due to the complexity involved.
+	   2. Data transmission through the public cloud may result in slower performance and increased latency.
+	        
