@@ -1,4 +1,5 @@
 
+------------------------------------------------------------------------
 KEY CONCEPT ( You only pay what you use )
 
 - What Is Cloud Computing ?
