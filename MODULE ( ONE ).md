@@ -38,3 +38,23 @@ KEY CONCEPT ( You only pay what you use )
 	   
 	   1. Public access to resources makes the public cloud less secure, with no guarantee of high-level security.
 	   2. Since it is used by many, the public cloud offers limited customization options to meet individual requirements.
+	      
+	2. On-Premises Deployment ( Private Cloud )
+	   
+	   The private cloud is a cloud computing model where resources are deployed on-premises using virtualization and resource management tools. It is also known as the "private cloud" and provides dedicated resources within a secure environment managed by an organization’s IT department.
+	   
+	   1. Resources are hosted within the organization's own data center, offering greater control and security but lacking some benefits of cloud computing.
+	   2. Unlike the public cloud, the private cloud is a one-on-one environment, where the hardware is not shared with others.
+	   3. Provides complete control over service integration, IT operations, and policies, allowing for tailored solutions to specific business needs.
+	   
+	   Advantages
+	   
+	   1. Full ownership and control over IT operations, policies, and user behavior.
+	   2. Enhanced security and privacy, ideal for sensitive corporate information, with restricted access for authorized personnel only.
+	   3. Compatible with legacy systems that may not be suitable for public cloud deployment.
+	   4. Offers flexibility to customize solutions according to specific organizational needs.
+
+	   Disadvantages
+	   
+	   1. Limited scalability compared to public clouds due to fewer clients and resources.
+	   2. Higher costs associated with maintaining a personalized and dedicated infrastructure.
