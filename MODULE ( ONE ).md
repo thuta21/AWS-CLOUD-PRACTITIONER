@@ -15,3 +15,7 @@ KEY CONCEPT ( You only pay what you use )
 	4. **Speed and Agility** : အချိန်အများကြီး ယူစရာမလိုပဲ မိနစ်ပိုင်းအတွင်းမှာပဲ လျင်လျင်မြန်မြန် စလုပ်နိုင်တယ်။ 
 	5. **Focus on Your Business** : Infrastructure ပိုင်းကို အချိန်ပေးပြီး maintain လုပ်စရာမလိုပဲ ကိုယ်ဆက်လုပ်ရမယ့် ကိစ္စတွေကိုသာ အာရုံစိုက်နေရုံပါပဲ။ 
 	6. **Global Reach** : Latency လျော့ချနိုင်ပြီး cost သက်သက်သာသာနဲ့ Globally မှာရှိတဲ့ customers တွေစီ Application ကို deployment လုပ်နိုင်ပါတယ်။
+
+- Cloud Computing Deployment Model
+	1. Cloud-Based Deployment 
+		testing one thwo three
