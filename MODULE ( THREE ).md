@@ -57,14 +57,14 @@ Content
   
   An Availability Zone ( AZs ) တွေက data centers တွေ ဖြစ်ပြီး သက်ဆိုင်ရာ Region တွေ အထဲမှာ မိုင် ထောင်နဲ့ ချီပြီး နေရာချထားပါတယ်။
   
-  ![AVAILABILITYZONES](blog/images/AvailabilityZone.png)
+  ![AVAILABILITYZONES](images/AvailabilityZone.png)
   
   ပုံမှာ ကြည့်မယ်ဆိုရင် data center us-west-1a / 1b / 1c ဆိုပြီး AZs သုံးခုရှိတယ်။ Nature disater ဆိုတာက ရှောင်ရှားလို့ မဖြစ်နိုင်တာကြောင့် instances တွေကို at lease 2 AZs မှာ တည်ဆောက်ထားသင့်ပါတယ်။
   
 ------------------------------------------------------------------------
 
 - Edge Location
-  ![CLOUDFRONT!](blog/images/CloudFront.png)
+  ![CLOUDFRONT!](images/CloudFront.png)
   
   Edge Location is the Data Center used to deliver content fast to your users.
   
