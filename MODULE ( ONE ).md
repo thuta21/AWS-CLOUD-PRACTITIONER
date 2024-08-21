@@ -12,10 +12,67 @@ Content
 	3. SaaS ( software as a service )
 
 ------------------------------------------------------------------------
+
+- Cloud Computing Technologies
+  
+  "The on-demand delivery of IT resources over the internet with pay-as-you-go pricing"
+  
+  Cloud Computing ဆိုတာသည် Physically အရ Resources တွေကို သုံးစရာမလိုပဲ အင်တာနက်ပေါ်က တစ်ဆင့် IT Resources ( Apps, Systems, Services, Softwares, Databases. Server, Platform ) တွေကို သုံးသလောက်ပေး ပုံစံ ( Pay-as-you-go pricing ) model နဲ့ ရယူအသုံးပြုချင်း ဖြစ်ပါတယ်။
+  
+  ဒီလို အင်တာနက်ပေါ်က တစ်ဆင့် အသုံးပြုနိုင်တာကြောင့် On-premise data center တွေလိုမဟုတ်ပဲ Hardware Management ပိုင်းတွေကို maintain လုပ်တဲ့နေရာမှာ အချိန် နဲ့ ငွေကုန်ကြေးကျ သက်သာစေပါတယ်။
+  
+  Cloud Providers : AWS, AZURE, Google Cloud Platform, IBM Cloud ...
+
+------------------------------------------------------------------------
+
+- Benefits of Cloud Computing
+  
+  1. Cost Saving : On-premise Data Center တွေ Server တွေ အတွက် Invest လုပ်စရာမလိုတော့ပဲ Cloud မှာ သုံးသလောက်ပဲ ပေးရတဲ့ အတွက် မလိုအပ်တဲ့အချိန်မှာ စရိတ်ကုန်ကျမှုမရှိတော့ပါဘူး။
+  2. Flexible Capacity : Demand အလိုက် လွယ်လွယ်ကူကူ scale up or down လုပ်နိုင်တဲ့ အတွက် ဘယ်လောက်ပမာဏသုံးမလဲဆိုတာကို အများကြီး ကြိုတင်ခန့်မှန်းစဥ်းစားစရာမလိုပါဘူး။
+  3. Speed and Agility : မြန်မြန်ဆန်ဆန်နဲ့ latency လျော့ချပြီး Customers တွေစီကို Deploy လုပ်ပေးနိုင်တဲ့ အတွက် လုပ်ငန်းတိုးတက်မှုတွေ မြန်ဆန်စေပါတယ်။
+
+------------------------------------------------------------------------
+
+- Deployment Models
+	1. Cloud-Based Deployment ( Public Cloud )
+	   
+	   Public Cloud ကို ကျွန်တော်တို့ အများသုံး Bus ကားလိုမျိုး ။ (AWS, Azure, Sun Cloud) စတဲ့ Third-party Vendor တွေက သူတို့ရဲ့ Services တွေကို လူတိုင်းအသုံးပြုနိုင်အောင် ပေးထားတာကြောင့် ကုန်ကျစရိတ်သက်သာစေပါတယ်။ ဒါပေမယ့် အများနဲ့မျှဝေသုံးနေရတဲ့ အတွက် Security ပိုင်းမှာတော့ အားနည်းနိုင်ပါတယ်။
+	   
+	   
+	2. On-Premises Deployment ( Private Cloud )
+	   
+	   Private Cloud ကို ကျွန်တော်တို့ရဲ့ ကိုယ်ပိုင်ကားလိုမျိုး မြင်ကြည့်လို့ရပါတယ်။ ဒီ Cloud ဟာ အဖွဲ့အစည်း တစ်ခုတည်းအတွက်သာ ဖန်တီးပေးထားတာ ဖြစ်ပြီး Infrastructure က တစ်ခြားလူတွေမပါဝင်တဲ့ အတွက် လုပ်ငန်းမှာ ပိုပြီးထိရောက်စေပြီး၊ Control နဲ့ Security ကို ပိုမိုပိုင်ဆိုင်နိုင်တာကြောင့် Sensitive Data (အရေးကြီးတဲ့ ဒေတာ) တွေကို ကိုင်တွယ်တဲ့ စီးပွားရေးလုပ်ငန်းတွေ အတွက် အထူးသင့်လျော်ပါတယ်။
+	   
+	3. Hybrid Cloud ကို ကျွန်တော်တို့ အများသုံးကားနဲ့ ကိုယ်ပိုင်ကား နှစ်မျိုးလုံးပေါင်းထားတဲ့ Taxiလိုမျိုး မြင်ကြည့်နိုင်ပါတယ်။ Hybrid Cloud က Public Cloud နဲ့ Private Cloud နှစ်ခုလုံးကို ပေါင်းစပ်သုံးတဲ့ နည်းပညာဖြစ်ပြီး၊ data တွေ application တွေကို အချင်းချင်း share နိုင်ပါတယ်။ Security အရ Public ထပ် more secure ဖြစ်ပြီး ဆန့်ကျင်ဘက်အနေနဲ့ Private ထပ်တော့ Less secure ဖြစ်နိုင်ပါတယ်။
+
+------------------------------------------------------------------------
+
+- Service Models
+  
+	1. IaaS ( infrastructure as a service )
+	   
+	   Infrastructure as a Service (IaaS) ဆိုတာက ကိုယ့် system တစ်ခုကို တည်ဆောက်တဲ့အခါမှာ လိုအပ်တဲ့ Hardware Resources တွေ ဖြစ်တဲ့ Compute devices, Storage devices, နဲ့ network အတွက်လိုအပ်တဲ့ ပစ္စည်းတွေကို ကိုယ်တိုင် ဝယ်ဖို့၊ တပ်ဆင်ဖို့ မလိုအပ်တော့ဘူးဆိုတာပါ။ ဒီပစ္စည်းတွေကို Cloud solution providers (ဥပမာ - Azure, AWS, GCP) ကနေ ထိန်းသိမ်းပေးသွားမယ်ဆိုတော့ ကိုယ့်စက်မှာတပ်ဆင်စရာမလိုတော့ပါဘူး။ အသုံးပြုသူအနေနဲ့ အချိန်မရွေး၊ လိုချင်တဲ့အခါ Virtual Machines (VMs) တွေကို click တချက်နှိပ်ရုံနဲ့ မြန်မြန်ဆန်ဆန်နဲ့ လွယ်ကူစွာ တည်ဆောက်နိုင်ပါတယ်။
+	   
+	   Examples : AWS EC2, Rackspace, Google compute engine, Digital Ocean
+	   
+	2. PaaS ( platform as a service )
+	   
+	   PaaS သည် Developers တွေ အတွက် အဓိက ထား တဲ့ service အမျိုးအစားဖြစ်ပါတယ်။ Underlying infrastructure (hardware နဲ့ middleware တွေကို ကိုယ်တိုင်စီမံဖို့ မလိုတော့ပဲ) ကိုယ့် applications တွေရဲ့ deployment နဲ့ management အပေါ်မှာပဲ အာရုံစိုက်နိုင်ပါသည်။ 
+	   
+	   Examples: AWS Elastic Beanstalk, Open Shift, Apache, Stratos, Google App Engine
+	   
+	3. SaaS ( software as a service )
+	   
+	   SaaS ကတော့ ကျွန်တော်တို့နဲ့ စိမ်းတဲ့ အရာတော့မဟုတ်ပါဘူး။ ကိုယ်လိုအပ်တာ သုံးချင်တာကို ကိုယ့် local machine ထဲမှာ installation လုပ်စရာမလိုပဲ cloud vendor ကနေ monthly paid ဖြစ်စေ Pay as you go ဖြစ်စေ ယူသုံးတာမျိုးဖြစ်တယ်။ resource မလောက်တော့လို့ ထပ်ထည့်ရတာတွေ ထပ်ပြီး maintain လုပ်ရတာတွေရှိမှာ မဟုတ်တော့ဘူး။ analysis လုပ်တဲ့ system တွေ tools တွေကို cloud မှ အလွယ်တကူ ရယူနိုင်ခြင်းကြောင့် အားသာချက်တွေများစွာ ရရှိနိုင်ပါတယ်။‍‍‍‍‍
+	   
+	   E‍xamples : Dropbox, pCloud, Mediafire, Google apps, microsoft office 365
+
+------------------------------------------------------------------------
+
 KEY CONCEPT ( You only pay what you use )
 
 - What Is Cloud Computing ?
-	1. The on-demand delivery of IT resources over the internet with pay-as-you-go pricing
+	1. The on-demand delivery of IT resources over the internet with pay-as-you-go pricing.
 	2. It allows rapid access to flexible and low-cost IT resources, enabling you to scale resources up or down as needed.
 	3. Eliminates the need for large upfront investments in hardware and reduces time spent on hardware management.
 	4. Provides easy access to servers, storage, databases, and application services over the Internet.
@@ -103,7 +160,7 @@ KEY CONCEPT ( You only pay what you use )
 - Service Model
 	1. IaaS ( infrastructure as a service )
 	   
-	   IaaS is also known as **Hardware as a Service (HaaS)**. It is a computing infrastructure managed over the internet. The main advantage of using IaaS is that it helps users to avoid the cost and complexity of purchasing and managing the physical servers.
+	   It is a computing infrastructure managed over the internet. The main advantage of using IaaS is that it helps users to avoid the cost and complexity of purchasing and managing the physical servers.
 	   
 	   Examples : DigitalOcean, Linode, Amazon Web Services (AWS), Microsoft Azure, Google Compute Engine (GCE), Rackspace, and Cisco Metacloud
 	   
