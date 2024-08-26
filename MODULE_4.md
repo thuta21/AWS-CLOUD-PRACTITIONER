@@ -3,9 +3,15 @@ Content
 2. Internet Gateway
 3. Virtual Private Gateway
 4. AWS Direct Connect
+5. Subnets
+	1. Public
+	2. Private
+6. Network ACLs (Network Access Control Lists) and Security Groups
+	1. Network ACLs 
+	2. Security Groups
 
 ------------------------------------------------------------------------
-Amazon Virtual Private Cloud ( Amazon VPC )
+1. Amazon Virtual Private Cloud ( Amazon VPC )
 
   ![AVAILABILITYZONES](images/VPC.png)
   
@@ -21,28 +27,28 @@ Amazon Virtual Private Cloud ( Amazon VPC )
 
 ------------------------------------------------------------------------
 
-Internet Gateway
+2. Internet Gateway
  ![AVAILABILITYZONES](images/InternetGateway.png)
 
  Internet Gateway ကတော့ Public Internet နဲ့ VPC ချိတ်ထားတဲ့ Connection တစ်ခု ဖြစ်ပါတယ်။ 
 
 ------------------------------------------------------------------------
 
-Virtual Private Gateway
+3. Virtual Private Gateway
  ![AVAILABILITYZONES](images/VPN.png)
 
  On-premise data center တွေ internal corporate network စတဲ့ Private Network တွေနဲ့ VPC ကိုချိတ်တဲ့ လမ်းကြောင်းမှာ VPN Connection ချိတ်ဆက်အသုံးပြုပါတယ်။
 
 ------------------------------------------------------------------------
 
-AWS Direct Connect
+4. AWS Direct Connect
  ![AVAILABILITYZONES](images/DirectConnect.png)
  
   Direct Connect က Dedicated Connection တစ်ခုဖြစ်ပြီး On-premise network နဲ့ VPC ကြား တိုက်ရိုက်ချိတ်ပေးတာပါ။ Dedicated ဖြစ်တဲ့ အတွက် Latency နည်းပြီး Public internet က ဖြတ်မသွားတဲ့ အတွက် လုံခြုံပါတယ်။
 
 ------------------------------------------------------------------------
 
-Subnets
+5. Subnets
 
  Coffee ဆိုင်တစ်ခုမှာ customer တွေက Cashier စီမှာ အရင်မတန်းစီပဲ Brista စီတန်းပြီး သွားတန်းစီနေသလိုမျိုးတွေ ရှိလာနိုင်မယ်။ ဒီအခြေနေကို ဘယ်လိုထိန်းမလဲ။ ဒါဆိုရင် Brista စီတန်းသွားလို့ မဖြစ်အောင် Security ထားလိုက်မယ်။ Cachier အပိုင်းကို Public Facing ထားပြီး Brista ကို Private ထားလိုက်မယ်။ ( ဒါက Instance နှစ်ခုလို့ မြင်လို့ရမယ့် Cashier နဲ့ Brista ကို subnet အုပ်လိုက်တာ ) 
 
@@ -67,36 +73,35 @@ Subnets
 
 ------------------------------------------------------------------------
 
-**Network ACLs (Network Access Control Lists)** and Security Groups
-
-
- **Network ACLs (Network Access Control Lists)** နဲ့ **Security Groups** က AWS VPC (Virtual Private Cloud) အတွင်းမှာ network security ကို ထိန်းချုပ်ဖို့ အတွက် အဓိကပါဝင်တဲ့ tools တွေပါ။
-
-1. **Security Groups**
+6. **Network ACLs (Network Access Control Lists)** and Security Groups
    
-   Security Groups ဆိုတာက instance (ဥပမာ EC2) တစ်ခုချင်းစီအပေါ်မှာ လုပ်ဆောင်နိုင်တဲ့ virtual firewall လို့ပြောလို့ရပါတယ်။ Security Groups ကတော့ **instance level** မှာပဲ focus လုပ်ပြီး, inbound (အဝင်) နဲ့ outbound (အထွက်) traffic တွေကို control လုပ်ပေးပါတယ်။
+   **Network ACLs (Network Access Control Lists)** နဲ့ **Security Groups** က AWS VPC (Virtual Private Cloud) အတွင်းမှာ network security ကို ထိန်းချုပ်ဖို့ အတွက် အဓိကပါဝင်တဲ့ tools တွေပါ။
+   
+   1. **Security Groups**
+      
+      Security Groups ဆိုတာက instance (ဥပမာ EC2) တစ်ခုချင်းစီအပေါ်မှာ လုပ်ဆောင်နိုင်တဲ့ virtual firewall လို့ပြောလို့ရပါတယ်။ Security Groups ကတော့ **instance level** မှာပဲ focus လုပ်ပြီး, inbound (အဝင်) နဲ့ outbound (အထွက်) traffic တွေကို control လုပ်ပေးပါတယ်။
 
 	- **Inbound Rules**: ဘယ် IP address, port, protocol လမ်းကြောင်းတွေကနေ ထဲကို traffic ဝင်ခွင့်ပြုမလဲ သတ်မှတ်ပေးနိုင်တယ်။
 	- **Outbound Rules**: ဘယ် IP address, port, protocol လမ်းကြောင်းတွေကို ထွက်ခွင့်ပြုမလဲ သတ်မှတ်ပေးနိုင်တယ်။
 	  
-   Security Groups ဟာ **stateful** ဖြစ်ပါတယ်။ ဒီအကြောင်းအရာအရ, အဝင် traffic လက်ခံရင် အထွက် traffic ကို မူတည်ပြီး စစ်ဆေးရမှာမဟုတ်ဘူး။ ရှေ့မှာ ဗလာအနေအထားထားပြီးရင်လည်း, သတ်မှတ်ထားတဲ့ rules များအတိုင်း ခွင့်ပြုတာပါ။
+	  Security Groups ဟာ **stateful** ဖြစ်ပါတယ်။ ဒီအကြောင်းအရာအရ, အဝင် traffic လက်ခံရင် အထွက် traffic ကို မူတည်ပြီး စစ်ဆေးရမှာမဟုတ်ဘူး။ ရှေ့မှာ ဗလာအနေအထားထားပြီးရင်လည်း, သတ်မှတ်ထားတဲ့ rules များအတိုင်း ခွင့်ပြုတာပါ။
    
-   1. Security Groups တွေဟာ stateful ဖြစ်ပါတယ် (အဝင် traffic လက်ခံရင်, အထွက် traffic ကိုလည်း auto ခွင့်ပြုတယ်)။
-   2. တစ်ခါတစ်ရံတွင် instance တစ်ခုက အများကြီး Security Groups ကိုလက်ခံနိုင်တယ်။
-   3. Rules တွေဟာ allow rules (ခွင့်ပြုတဲ့ အချို့သော traffic) တွေပါ။ 
+	   1. Security Groups တွေဟာ stateful ဖြစ်ပါတယ် (အဝင် traffic လက်ခံရင်, အထွက် traffic ကိုလည်း auto ခွင့်ပြုတယ်)။
+	   2. တစ်ခါတစ်ရံတွင် instance တစ်ခုက အများကြီး Security Groups ကိုလက်ခံနိုင်တယ်။
+	   3. Rules တွေဟာ allow rules (ခွင့်ပြုတဲ့ အချို့သော traffic) တွေပါ။ 
         
-2. **Network ACLs (NACLs)**
-   
-   Network ACLs ဆိုတာက Subnet-level မှာ control လုပ်တဲ့ firewall လို့ပြောလို့ရပါတယ်။ NACLs ကတော့ **Subnet level** မှာ focus လုပ်ပြီး, inbound နဲ့ outbound traffic တွေကို control လုပ်ပေးပါတယ်။
+   2. **Network ACLs (NACLs)**
+      
+      Network ACLs ဆိုတာက Subnet-level မှာ control လုပ်တဲ့ firewall လို့ပြောလို့ရပါတယ်။ NACLs ကတော့ **Subnet level** မှာ focus လုပ်ပြီး, inbound နဲ့ outbound traffic တွေကို control လုပ်ပေးပါတယ်။
 
 	- **Inbound Rules**: ဘယ် traffic လမ်းကြောင်းတွေက Subnet ထဲကို ဝင်ခွင့်ပြုမလဲ သတ်မှတ်ပါတယ်။
 	- **Outbound Rules**: ဘယ် traffic လမ်းကြောင်းတွေက Subnet ထဲက ထွက်ခွင့်ပြုမလဲ သတ်မှတ်ပါတယ်။
 	  
-   NACLs က **stateless** ဖြစ်ပါတယ်။ inbound နဲ့ outbound traffic တွေကို သီးသန့်စီစစ်ပြီး control လုပ်ရပါတယ်။ 
+	  NACLs က **stateless** ဖြစ်ပါတယ်။ inbound နဲ့ outbound traffic တွေကို သီးသန့်စီစစ်ပြီး control လုပ်ရပါတယ်။ 
    
-   1. NACLs တွေဟာ stateless ဖြစ်ပါတယ် (inbound နဲ့ outbound traffic အပေါ်မှာ rules တွေကို သီးသန့်စီစစ်ပြီး control လုပ်တယ်)။
-   2. Subnet တစ်ခုမှာ NACL တစ်ခုပဲရှိနိုင်တယ်။
-   3. Rules တွေဟာ allow (ခွင့်ပြုတဲ့ traffic) နဲ့ deny rules (မခွင့်ပြုတဲ့ traffic) လို့ခွဲခြားထားပါတယ်။
+	   1. NACLs တွေဟာ stateless ဖြစ်ပါတယ် (inbound နဲ့ outbound traffic အပေါ်မှာ rules တွေကို သီးသန့်စီစစ်ပြီး control လုပ်တယ်)။
+	   2. Subnet တစ်ခုမှာ NACL တစ်ခုပဲရှိနိုင်တယ်။
+	   3. Rules တွေဟာ allow (ခွင့်ပြုတဲ့ traffic) နဲ့ deny rules (မခွင့်ပြုတဲ့ traffic) လို့ခွဲခြားထားပါတယ်။
 
 ------------------------------------------------------------------------
 
