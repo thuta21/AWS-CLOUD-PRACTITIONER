@@ -49,17 +49,17 @@ Content
 
 	  ဒီ storage class မှာအဓိက feature တွေကတော့:
 
-	1. **Automatic Cost Savings**: အချက်အလက်များကို အလွယ်တကူ monitoring လုပ်ပြီး, 30 ရက်လောက် access မလုပ်တဲ့ object တွေကို Infrequent Access tier ကနေ ထားတယ်။ 90 ရက် access မလုပ်ဘဲဖြစ်ရင်တော့ Archive Instant Access tier ကို အလိုအလျောက် ရွှေ့ပါတယ်။
+		1. **Automatic Cost Savings**: အချက်အလက်များကို အလွယ်တကူ monitoring လုပ်ပြီး, 30 ရက်လောက် access မလုပ်တဲ့ object တွေကို Infrequent Access tier ကနေ ထားတယ်။ 90 ရက် access မလုပ်ဘဲဖြစ်ရင်တော့ Archive Instant Access tier ကို အလိုအလျောက် ရွှေ့ပါတယ်။
 
-	2. **No Retrieval Charges**: Infrequent Access ဒါမှမဟုတ် Archive Instant Access tier ထဲက object တွေကို ပြန်ခေါ်ချင်ရင် အလိုအလျောက် Frequent Access tier ကို ပြန်ရွှေ့ပေးပါတယ်။ Deep Archive Access tier မှာ ရှိတဲ့ object တွေကို ပြန် retrieve လုပ်ချင်ရင်တော့ restore လုပ်ရပါမယ်။
+		2. **No Retrieval Charges**: Infrequent Access ဒါမှမဟုတ် Archive Instant Access tier ထဲက object တွေကို ပြန်ခေါ်ချင်ရင် အလိုအလျောက် Frequent Access tier ကို ပြန်ရွှေ့ပေးပါတယ်။ Deep Archive Access tier မှာ ရှိတဲ့ object တွေကို ပြန် retrieve လုပ်ချင်ရင်တော့ restore လုပ်ရပါမယ်။
 
-	3. **Multi-Tiered Storage**: Data များကို အသုံးပြုမှုအပေါ်မူတည်ပြီး အလိုအလျောက် အဆင့်မြင့် တိုက်ရိုက် access tiers သို့ ရွှေ့ပေးပါတယ်။
+		3. **Multi-Tiered Storage**: Data များကို အသုံးပြုမှုအပေါ်မူတည်ပြီး အလိုအလျောက် အဆင့်မြင့် တိုက်ရိုက် access tiers သို့ ရွှေ့ပေးပါတယ်။
 
-	4. **Small Monitoring and Automation Charge**: တစ်လအတွင်း object monitoring နဲ့ automation လုပ်တာအတွက် နည်းနည်းလေးပဲ အခကြေးငွေ ထပ်ပေးရတယ်။
+		4. **Small Monitoring and Automation Charge**: တစ်လအတွင်း object monitoring နဲ့ automation လုပ်တာအတွက် နည်းနည်းလေးပဲ အခကြေးငွေ ထပ်ပေးရတယ်။
 
-	5. **No Operational Overhead**:  S3 Intelligent-Tiering က operational overhead လုံးဝ မရှိဘူးဆိုတာ အရေးကြီးတဲ့ အချက်ပါ။
+		5. **No Operational Overhead**:  S3 Intelligent-Tiering က operational overhead လုံးဝ မရှိဘူးဆိုတာ အရေးကြီးတဲ့ အချက်ပါ။
 
-	6. **High Availability**: S3 Intelligent-Tiering က 99.9% availability ရရှိဖို့ ရည်ရွယ်ထားပြီး SLA က 99% ဖြစ်ပါတယ်။
+		6. **High Availability**: S3 Intelligent-Tiering က 99.9% availability ရရှိဖို့ ရည်ရွယ်ထားပြီး SLA က 99% ဖြစ်ပါတယ်။
 
    3. S3 Standard-IA ( Infrequent access )
       
@@ -68,9 +68,9 @@ Content
       S3 Standard-IA ကို access frequency နည်းတဲ့ data များအတွက်၊ Long-term data storage လုပ်ချင်တဲ့အခါ၊ Disaster recovery နဲ့ Backup data တို့အတွက် အသုံးပြုနိုင်ပါတယ်။
 
 
-		- **High Durability:** 99.999999999% durability ကို AWS S3 Standard မှာရှိသလို၊ S3 Standard-IA မှာလည်း ပေးထားပါတယ်။
-		- **High Performance:** S3 Standard နဲ့တူတဲ့ **low latency** နဲ့ **high throughput** ရှိတယ်။ Millisecond-level access လိုအပ်တဲ့ data တွေကို ထိရောက်စွာ handle လုပ်နိုင်တယ်။
-		- **Lower Cost:** S3 Standard ထက် storage cost နည်းပေမယ့်၊ **retrieval charge** ရှိတယ်။ ဒါကြောင့် backup data, long-term storage, disaster recovery files တွေအတွက် အထူးသင့်တော်တယ်။
+		1. **High Durability:** 99.999999999% durability ကို AWS S3 Standard မှာရှိသလို၊ S3 Standard-IA မှာလည်း ပေးထားပါတယ်။
+		2. **High Performance:** S3 Standard နဲ့တူတဲ့ **low latency** နဲ့ **high throughput** ရှိတယ်။ Millisecond-level access လိုအပ်တဲ့ data တွေကို ထိရောက်စွာ handle လုပ်နိုင်တယ်။
+		3. **Lower Cost:** S3 Standard ထက် storage cost နည်းပေမယ့်၊ **retrieval charge** ရှိတယ်။ ဒါကြောင့် backup data, long-term storage, disaster recovery files တွေအတွက် အထူးသင့်တော်တယ်။
   
 	  S3 Standard-IA ရဲ့ နောက်ထပ်တန်ဖိုးကတော့ **S3 Lifecycle policies** ကို အသုံးပြုပြီး, Data အရည်အချင်းကို မတူညီတဲ့ storage classes (S3 Standard, S3 Intelligent-Tiering, S3 Standard-IA, S3 One Zone-IA) ကြားမှာ automatic transition လုပ်ပေးနိုင်တာပဲ ဖြစ်ပါတယ်။ 
 
