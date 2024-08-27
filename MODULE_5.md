@@ -138,3 +138,11 @@ Content
 		- **S3 Lifecycle Policies:** Data များကို S3 Lifecycle policies အသုံးပြုပြီး expiration actions လုပ်နိုင်ပါတယ်။
 
 ------------------------------------------------------------------------
+
+5. Amazon EFS ( Elastic File System )
+   
+   Amazon EFS (Elastic File System) က Amazon Web Services (AWS) ရဲ့ managed service တစ်ခုပါ။ EFS ကိုသုံးရင် cloud အတွက် scalable, managed, network file system တစ်ခုရနိုင်ပါတယ်။ ဒါ့ကြောင့် distributed applications, content management systems, containerized workloads, analytics, machine learning တို့လို အလုပ်များကို လွယ်လွယ်ကူကူ handle လုပ်နိုင်ပါတယ်။
+
+   EFS ကိုအသုံးပြုပုံက Linux-based workloads များအတွက် optimized လုပ်ထားတာကြောင့် ရိုးရှင်းပါတယ်။ မိမိရဲ့ instances တွေကနေ အချိန်နှင့်တပြေးညီ access လုပ်ပြီး data ကို share လုပ်ဖို့အတွက် အသင့်တော်ဆုံးပါ။ Multi-AZ deployments ရဲ့ အားသာချက်နဲ့ failover support ပေးတဲ့ အပြင်, တစ်ပြိုင်နက်တည်းမှာ data က backup လုပ်ထားတာကြောင့် data loss ဖြစ်စေမယ့် ပြဿနာတွေကနေနဲ့ လုံခြုံစိတ်ချရပါတယ်။
+
+   EFS သည် နေရာတစ်ခုတည်းမှာ data များအရမ်းလိုအပ်တဲ့ application များအတွက် အသင့်တော်ဆုံးဖြစ်ပြီး, cloud environment များမှာ ဖိုင်များကို shared access နဲ့ တည်ဆောက်လိုတဲ့ အခါမှာ အသုံးပြုသင့်ပါတယ်။
