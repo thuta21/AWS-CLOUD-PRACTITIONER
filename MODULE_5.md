@@ -3,6 +3,7 @@ Content
 2. Amazon Elastic Block Stores ( Amazon EBS )
 3. Amazon S3
 4. Amazon S3 Storage Classes
+5. Amazon EFS ( Elastic File System )
 ------------------------------------------------------------------------
 
 1. Instance Stores
@@ -146,3 +147,23 @@ Content
    EFS ကိုအသုံးပြုပုံက Linux-based workloads များအတွက် optimized လုပ်ထားတာကြောင့် ရိုးရှင်းပါတယ်။ မိမိရဲ့ instances တွေကနေ အချိန်နှင့်တပြေးညီ access လုပ်ပြီး data ကို share လုပ်ဖို့အတွက် အသင့်တော်ဆုံးပါ။ Multi-AZ deployments ရဲ့ အားသာချက်နဲ့ failover support ပေးတဲ့ အပြင်, တစ်ပြိုင်နက်တည်းမှာ data က backup လုပ်ထားတာကြောင့် data loss ဖြစ်စေမယ့် ပြဿနာတွေကနေနဲ့ လုံခြုံစိတ်ချရပါတယ်။
 
    EFS သည် နေရာတစ်ခုတည်းမှာ data များအရမ်းလိုအပ်တဲ့ application များအတွက် အသင့်တော်ဆုံးဖြစ်ပြီး, cloud environment များမှာ ဖိုင်များကို shared access နဲ့ တည်ဆောက်လိုတဲ့ အခါမှာ အသုံးပြုသင့်ပါတယ်။
+
+------------------------------------------------------------------------
+
+6. Amazon RDS 
+   
+   **Amazon Relational Database Service (Amazon RDS)** ဆိုတာ AWS ရဲ့ managed service တစ်ခုဖြစ်ပြီး, relational databases များကို အလွယ်တကူ setup လုပ်နိုင်အောင်, operate နဲ့ scale လုပ်နိုင်အောင် ပံ့ပိုးပေးတယ်။ ဒီ service က database administration ရဲ့ tasks များဖြစ်တဲ့ provisioning, patching, backup, recovery, နဲ့ scaling အလုပ်တွေကို စက်မှန်အလိုလုပ်ဆောင်ပေးတာကြောင့်, developers တွေအနေနဲ့ database management အပေါ်မှာ အချိန်ကုန်မှုနည်းပြီး, အခြားအရေးကြီးတဲ့ application development task တွေကို အာရုံစိုက်နိုင်တယ်။
+
+
+	- Amazon RDS သည် fully managed service ဖြစ်တဲ့အတွက်, database administration နဲ့ပတ်သက်တဲ့ operations များကို စက်မှန်အလိုလုပ်ဆောင်ပေးတယ်။ ဒီလိုမျိုးဖြစ်လို့, developers တွေအနေနဲ့ application development နဲ့ operation အပေါ်မှာသာ အာရုံစိုက်နိုင်တယ်။
+    
+	- High availability နဲ့ failover support အတွက် Multi-AZ (Multiple Availability Zones) deployment ကို ပံ့ပိုးပေးတယ်။ ဒီ feature လို့ database instance တစ်ခု fail ဖြစ်ရင်, အခြား AZ မှာရှိတဲ့ standby instance ကို seconds အတွင်း ပြောင်းလုပ်ပေးနိုင်တယ်။
+    
+	- Data encryption အတွက် support လုပ်ပေးပြီး, data-at-rest နဲ့ data-in-transit အတွက် SSL/TLS encryption ကို အသုံးပြုနိုင်တယ်။ Authentication နဲ့ authorization အတွက် AWS Identity and Access Management (IAM) ကိုပံ့ပိုးပေးတယ်။
+    
+	- Vertical scaling နဲ့ horizontal scaling နည်းလမ်းနှစ်မျိုးလုံးကို ပံ့ပိုးပေးတယ်။ ဒါကြောင့်, application workload တိုးလာတဲ့အခါမှာ, မိမိ database ကို အလွယ်တကူ scale လုပ်နိုင်တယ်။
+    
+	- Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, နှင့် Microsoft SQL Server ကဲ့သို့သော popular relational database engines များကို ပံ့ပိုးပေးတယ်။
+	  
+
+    
