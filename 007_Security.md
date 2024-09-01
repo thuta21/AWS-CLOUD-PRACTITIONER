@@ -69,7 +69,7 @@ Content
 	   ဒီ Feature က AWS က လုပ်ဆောင်ထားတဲ့ Compliance Program တွေ၊ အခြေခံ Security Control တွေကို စစ်ဆေးတဲ့ အစီရင်ခံစာများ (Reports) ကို ရယူနိုင်မှာ ဖြစ်ပါတယ်။ SOC (Service Organization Controls) Reports, ISO Certifications, PCI (Payment Card Industry) Reports စတာတွေကို အလွယ်တကူ ရယူနိုင်ပြီး သင့်ရဲ့ Compliance Requirements တွေကို ဖြည့်ဆည်းနိုင်ပါတယ်။
 
 	2. **AWS Artifact Agreements**:  
-	   ဒီ Feature က AWS နဲ့ သင့်အဖွဲ့အစည်းကြားမှာ လိုအပ်တဲ့ Compliance Agreement တွေ၊ NDA (Non-disclosure Agreement) စတာတွေကို လက်မှတ်ရေးထိုးနိုင်စေပါတယ်။ AWS Artifact Agreements က အရင်က တာဝန်ထမ်းဆောင်ထားတဲ့ သဘောတူစာချုပ်တွေကို ပြန်လည်ကြည့်ရှုနိုင်တဲ့ အပြင်၊ အသစ်လည်း လက်မှတ်ရေးထိုးနိုင်ပါတယ်။
+	   ဒီ Feature က AWS နဲ့ သင့်အဖွဲ့အစည်းကြားမှာ လိုအပ်တဲ့ Compliance Agreement တွေ၊ NDA (Non-disclosure Agreement) စတာတွေကို Sign ထိုးနိုင်စေပါတယ်။ AWS Artifact Agreements က အရင်က တာဝန်ထမ်းဆောင်ထားတဲ့ သဘောတူစာချုပ်တွေကို ပြန်လည်ကြည့်ရှုနိုင်တဲ့ အပြင်၊ အသစ်လည်း Sign ထိုးနိုင်ပါတယ်။
 ------------------------------------------------------------------------
 5. Denial-of-Service (DoS) and Distributed Denial of Service (DDoS) Attack
    
@@ -83,5 +83,5 @@ Content
 	2. Distributed Denial-of-Service (DDoS) Attack
 	  DDoS attack ဆိုတာ DoS attack နဲ့ ဆင်တူပေမယ့် အများကြီးလက်တွဲပြီး လုပ်တဲ့ attack ပုံစံပါ။ Attacker က Computer အများကြီးကို တစ်ပြိုင်နက်တည်း request တွေ ပို့စေပြီး Target Server ကို ထိခိုက်အောင် လုပ်ပါတယ်။
 
-	**ဥပမာ** - Attacker တစ်ယောက်က အခြား Computer အများကြီးကို ထိန်းချုပ်ထားပြီး၊ ဒီ Computer တွေက တစ်ပြိုင်နက်တည်း သင့်ဝဘ်ဆိုဒ်ကို request တွေ ပို့လိုက်တယ်။ ဒီလိုလုပ်လိုက်တဲ့အခါမှာ Server က overload ဖြစ်ပြီး အခြား User တွေ ဝင်လို့မရတော့ပါဘူး။
+	**ဥပမာ** - Attacker တစ်ယောက်က အခြား Computer အများကြီးကို ထိန်းချုပ်ထားပြီး၊ ဒီ Computer တွေက တစ်ပြိုင်နက်တည်း websiteကို request တွေ ပို့လိုက်တယ်။ ဒီလိုလုပ်လိုက်တဲ့အခါမှာ Server က overload ဖြစ်ပြီး အခြား User တွေ ဝင်လို့မရတော့ပါဘူး။
 ------------------------------------------------------------------------
