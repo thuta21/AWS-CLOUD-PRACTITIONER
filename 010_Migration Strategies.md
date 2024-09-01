@@ -7,7 +7,7 @@ Content
 
 1. The 6 R's of migration
    
-   Migration Strategies ဆိုသည်မှာ အချက်အလက်များ၊ applications နှင့် infrastructure ကို On-Premises မှ Cloud Environment သို့ ပြောင်းရွှေ့ရာတွင် အသုံးပြုသည့် နည်းလမ်းများ ဖြစ်ပါသည်။ ဒီ Strategies များကို မိမိ၏ Business လိုအပ်ချက်များ၊ Technical Requirement များ နှင့် Resource များအပေါ် အခြေခံပြီး ရွေးချယ်သင့်ပါသည်။
+   Migration Strategies ဆိုသည်မှာ အချက်အလက်များ၊ applications နှင့် infrastructure ကို On-Premises မှ Cloud Environment သို့ ပြောင်းရွှေ့ရာတွင် အသုံးပြုသည့် နည်းလမ်းများ ဖြစ်ပါသည်။ ဒီ Strategies များကို မိမိ၏ Business Requirements ၊ Technical Requirements များ နှင့် Resources များအပေါ် အခြေခံပြီး ရွေးချယ်သင့်ပါသည်။
 
    6 R's of migration
    
