@@ -2,7 +2,12 @@
 Content
 
 1. AWS Cloud Adoption Framework ( AWS CAF )
-   
+	   1. Business Perspective
+	   2. People Perspective
+	   3. Governance Perspective
+	   4. Platform Perspective
+	   5. Security Perspective
+	   6. Operations Perspective
    
 ------------------------------------------------------------------------
 
@@ -73,3 +78,5 @@ Content
 
 		- IT operations managers
 		- IT support managers
+
+------------------------------------------------------------------------
