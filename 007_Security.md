@@ -13,13 +13,14 @@ Content
 ------------------------------------------------------------------------
 1. AWS Shared Responsibility Model
 
-	 Cloud service သုံးတဲ့ အခါမှာ AWS (Amazon Web Services) နဲ့ Customer ရဲ့ တာဝန်တွေကို အချိန်ကျကျ ခွဲခြားထားတဲ့ အစီအမံပုံစံတစ်ခုပဲ ဖြစ်ပါတယ်။ ဒါဆို AWS ကို အသုံးပြုသူအနေနဲ့ သင့်လုပ်ပိုင်ခွင့် (responsibility) က ဘာတွေလဲ၊ AWS က ဘာတွေလဲ ဆိုတာကို နားလည်ထားဖို့ လိုပါတယ်။
+	 Cloud service သုံးတဲ့ အခါမှာ AWS (Amazon Web Services) နဲ့ Customer ရဲ့ တာဝန်တွေကို အချိန်ကျကျ ခွဲခြားထားတဲ့ ပုံစံတစ်ခုပဲ ဖြစ်ပါတယ်။ ဒါဆို AWS ကို အသုံးပြုသူအနေနဲ့ သင့်လုပ်ပိုင်ခွင့် (responsibility) က ဘာတွေလဲ၊ AWS က ဘာတွေလဲ ဆိုတာကို နားလည်ထားဖို့ လိုပါတယ်။
 
 	 AWS Shared Responsibility Model မှာ AWS ရဲ့ တာဝန်တွေက Security of the Cloud ပိုင်းကို လုပ်ဆောင်ပေးတာပါ။ ဒီမှာ Server, Storage, Networking, Data Center အစရှိသဖြင့် Physical Security နဲ့ Infrastructure Security တို့ကို AWS က အပြည့်အဝ တာဝန်ယူပါမယ်။ ဒါကြောင့် AWS Cloud Infrastructure ကိုယ်တိုင်မှာ လုံခြုံရေးပြဿနာ မရှိအောင် AWS က တာဝန်ယူပါတယ်။
 
-	 တစ်ဖက်မှာ Customer (သင့်) ရဲ့ တာဝန်က Security in the Cloud ပိုင်းဖြစ်ပြီး Customer ရဲ့ Data, Applications, User Access Control အစရှိသဖြင့် Data Encryption, Identity Management နဲ့ Security Configuration အပိုင်းတွေကို သင့်ကိုယ်တိုင် ကောင်းကောင်း တာဝန်ယူပါမယ်။ အနိမ့်ဆုံး လိုအပ်တဲ့ Security Setting တွေကို လုပ်ထားဖို့ လိုပါတယ်။
+	 တစ်ဖက်မှာ Customer ရဲ့ တာဝန်က Security in the Cloud ပိုင်းဖြစ်ပြီး Customer ရဲ့ Data, Applications, User Access Control အစရှိသဖြင့် Data Encryption, Identity Management နဲ့ Security Configuration အပိုင်းတွေကို သင့်ကိုယ်တိုင် ကောင်းကောင်း တာဝန်ယူပါမယ်။ အနိမ့်ဆုံး လိုအပ်တဲ့ Security Setting တွေကို လုပ်ထားဖို့ လိုပါတယ်။
 
-	 ဒါဆို AWS Shared Responsibility Model ဟာ Cloud Security ပိုင်းမှာ သင့်ကိုယ်တိုင် လုပ်ရမယ့် အပိုင်းတွေကို နားလည်ပြီး အမှန်တကယ် စနစ်တကျ လုပ်ဆောင်နိုင်ဖို့ အရေးကြီးပါတယ်။
+	 ဒါဆို AWS Shared Responsibility Model ဟာ Cloud Security ပိုင်းမှာ ကိုယ်တိုင် လုပ်ရမယ့် အပိုင်းတွေကို နားလည်ပြီး အမှန်တကယ် စနစ်တကျ လုပ်ဆောင်နိုင်ဖို့ အရေးကြီးပါတယ်။
+	 
 ------------------------------------------------------------------------
 2. AWS Identity and Access Management ( IAM )
    

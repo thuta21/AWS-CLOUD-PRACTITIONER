@@ -67,7 +67,7 @@ Content
 
   2. **Private Subnet**:  
      
-     Private Subnet ဆိုတာက Internet နဲ့ တိုက်ရိုက်မချိတ်ဆက်ဘဲ အခြား Subnets, အခြား on-premises networks တွေနဲ့ပဲချိတ်ဆက်ထားတဲ့ Subnet ဖြစ်ပါတယ်။ Database servers, အခြား sensitive data တွေကို Private Subnet ထဲမှာ ထားတတ်ကြပါတယ်။ Internet အပြင်ပေါ်ကနေ access လုပ်လို့မရဘဲ internal services တွေကနေသာ access လုပ်နိုင်အောင် setup လုပ်ရတာပါ။
+     Private Subnet ဆိုတာက Internet နဲ့ တိုက်ရိုက်မချိတ်ဆက်ဘဲ အခြား Subnets, အခြား on-premises networks တွေနဲ့ပဲချိတ်ဆက်ထားတဲ့ Subnet ဖြစ်ပါတယ်။ Database servers, အခြား sensitive data တွေကို Private Subnet ထဲမှာ ထားတတ်ကြပါတယ်။ Internet ပေါ်ကနေ access လုပ်လို့မရဘဲ internal services တွေကနေသာ access လုပ်နိုင်အောင် setup လုပ်ရတာပါ။
      
      Subnets ကို configure လုပ်ရာမှာ CIDR (Classless Inter-Domain Routing) block တွေသုံးပြီး IP address range တွေကို assign လုပ်ရပါတယ်။ Subnet တစ်ခုချင်းစီက IP address range တစ်ခုကို သီးသန့်ပိုင်ဆိုင်ထားပြီး, VPC အတွင်းမှာရှိတဲ့ အခြား Subnets နဲ့ IP conflict မဖြစ်အောင် သတ်မှတ်ထားပါတယ်။
      
