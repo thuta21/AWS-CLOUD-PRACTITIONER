@@ -48,7 +48,7 @@ Content
 
    Load Balancer က မိမိကိုယ်ပိုင် algorithm တွေကို အသုံးပြုပြီး traffic ကို balance လုပ်ပေးတယ်။ တချို့က round-robin, weighted round-robin, least connection, IP hash စတဲ့ methods တွေကို အသုံးပြုပါတယ်။
 
-   Load Balancer ကို အသုံးပြုရခြင်းအရင်းခံမှာတော့,
+   Load Balancer ကို အသုံးပြုခြင်းအားဖြင့်
     - Server တွေရဲ့ performance မနည်းပါဘူး။
     - Redundancy လုပ်ပေးနိုင်တယ်။
     - High availability (HA) ရနိုင်တယ်။

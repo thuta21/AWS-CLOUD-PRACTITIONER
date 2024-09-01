@@ -62,7 +62,7 @@ Content
    Availability Zones ဆိုတာက Region တစ်ခုရဲ့ အတွင်းမှာ သီးသန့် တည်ဆောက်ထားတဲ့ Data Centers တွေကို ပြောတာပါ။ AZ တစ်ခုခြားနားရင် Miles အနည်းငယ်အကွာမှာရှိပေမယ့် Network Latency က အရမ်းနည်းပါတယ်။ AZs တွေကို အသုံးပြုပြီး Application High Availability ကို မြှင့်တင်နိုင်ပြီး Disaster Recovery ပိုင်းမှာလည်း အရမ်းအသုံးဝင်ပါတယ်။
    ![AVAILABILITYZONES](images/AvailabilityZone.png)
    
-   ပုံမှာ ကြည့်မယ်ဆိုရင် data center us-west-1a / 1b / 1c ဆိုပြီး AZs သုံးခုရှိတယ်။ Nature disater ဆိုတာက ရှောင်ရှားလို့ မဖြစ်နိုင်တာကြောင့် instances တွေကို at least (2) AZs မှာ တည်ဆောက်ထားသင့်ပါတယ်။
+   ပုံမှာ ကြည့်မယ်ဆိုရင် data center us-west-1a / 1b / 1c ဆိုပြီး AZs သုံးခုရှိတယ်။ Nature disater ဆိုတာက ရှောင်ရှားလို့ မဖြစ်နိုင်တာကြောင့် instances တွေကို အနည်းဆုံး AZs နှစ်ခု မှာ တည်ဆောက်ထားသင့်ပါတယ်။
 
 ------------------------------------------------------------------------
 
