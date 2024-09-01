@@ -55,7 +55,7 @@ Content
 
 	- Organizational Units (OUs)
 	  
-	  Organizational Units (OUs) ဆိုတာကတော့ AWS Organizations ထဲမှာ Sub-division (အောက်ခံအဖွဲ့အစည်း) လုပ်ထားတဲ့ အဖွဲ့အစည်းလေးတွေပါပဲ။ AWS Accounts များစွာကို အခြေအနေပေါ်မူတည်ပြီး OUs တစ်ခုချင်းစီထဲ ထည့်သွင်းနိုင်ပါတယ်။ ဒါကြောင့် Department, Project, Team အလိုက် အုပ်စုလိုက် စီမံခန့်ခွဲနိုင်ပါတယ်။
+	  Organizational Units (OUs) ဆိုတာကတော့ AWS Organizations ထဲမှာ Sub-division လုပ်ထားတဲ့ အဖွဲ့အစည်းလေးတွေပါပဲ။ AWS Accounts များစွာကို အခြေအနေပေါ်မူတည်ပြီး OUs တစ်ခုချင်းစီထဲ ထည့်သွင်းနိုင်ပါတယ်။ ဒါကြောင့် Department, Project, Team အလိုက် အုပ်စုလိုက် စီမံခန့်ခွဲနိုင်ပါတယ်။
 
      ဥပမာ၊ သင့်ရဲ့ AWS Organization ထဲမှာ Production Unit တစ်ခု၊ Development Unit တစ်ခု ဆိုပြီး OUs နှစ်ခု ခွဲထားတယ် ဆိုပါစို့။ ဒီလို OU တွေမှာ သက်ဆိုင်ရာ AWS Accounts တွေကို ထည့်သွင်းပြီး Policies တွေ၊ Billing တွေကို ခွဲခြားစီမံခန့်ခွဲနိုင်ပါတယ်။
 ------------------------------------------------------------------------
