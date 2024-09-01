@@ -2,6 +2,12 @@
 Content
 
 1. The 6 R's of migration
+	1. Rehosting ( Lift and Shift )
+	2. Replatforming ( Lift, Tinker and Shift )
+	3. Refactoring / re-architecting
+	4. Repurchasing
+	5. Retaining
+	6. Retiring
    
 ------------------------------------------------------------------------
 
