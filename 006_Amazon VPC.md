@@ -17,7 +17,7 @@ Content
   
    Amazon VPC (Virtual Private Cloud) ဆိုတာက cloud environment အတွင်းမှာ organization အတွက် network တစ်ခုကို သီးသီးသန့်သန့် ရရှိစေတဲ့ service ဖြစ်ပါတယ်။ VPC ကိုအသုံးပြုရင် ကျွန်တော်တို့ application တွေ၊ database တွေ၊ တခြား resources တွေကို securely isolate (သီးခြားထား) နိုင်ပါတယ်။ 
 
-   VPC ကို လိုသလို configure လုပ်နိုင်ပြီး IP address range, subnets, route tables, internet gateways စတာတွေကို manage လုပ်နိုင်ပါတယ်။ VPC အတွင်းမှာ ရတဲ့ private IP space ကို သီးသန့် configure လုပ်နိုင်ပြီး public-facing services တွေကို public subnet ထဲမှာ ထားနိုင်သလို, sensitive data တွေကို private subnet ထဲမှာ secure စောင့်ရှောက်ထားနိုင်ပါတယ်။
+   VPC ကို လိုသလို configure လုပ်နိုင်ပြီး IP address range, subnets, route tables, internet gateways စတာတွေကို manage လုပ်နိုင်ပါတယ်။ VPC အတွင်းမှာ ရတဲ့ private IP space ကို သီးသန့် configure လုပ်နိုင်ပြီး public-facing services တွေကို public subnet ထဲမှာ ထားနိုင်သလို, sensitive data တွေကို private subnet ထဲမှာ secure လုပ်နိုင်ပါတယ်။
 
    VPC အသုံးပြုရင် security အတွက် အထူးသင့်တော်ပြီး, Network Access Control Lists (NACLs) နဲ့ Security Groups တွေ သုံးပြီး inbound, outbound traffic တွေကို strict control နိုင်ပါတယ်။ Plus, VPN (Virtual Private Network) သုံးပြီး on-premises network တွေနဲ့ securely connect နိုင်ပါတယ်။
 
