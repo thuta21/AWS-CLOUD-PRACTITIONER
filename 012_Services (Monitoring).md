@@ -9,7 +9,6 @@ Content
 2. AWS CloudTrail
 3. AWS Trust Advisor
    
-   
 ------------------------------------------------------------------------
 
 1. Amazon Cloudwatch
