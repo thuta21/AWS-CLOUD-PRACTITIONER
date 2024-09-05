@@ -36,7 +36,7 @@ Content
 
 	 Infrastructure ကို Cloud Service အနေနဲ့ပေးတာ။ Cloud Provider က Server, Storage, Network နဲ့ Virtualization စတဲ့ Physical Infrastructure တွေကို အငှားပေးတဲ့ Model ပါ။ User အနေနဲ့ Data Center တွေ၊ Server Hardware တွေ ဝယ်ယူတပ်ဆင်စရာမလိုဘဲ IaaS Provider (e.g., AWS EC2, Google Compute Engine) မှာ Virtual Machines, Storage, Networking Resources တို့ကို လိုအပ်သလို အသုံးပြုနိုင်ပါတယ်။ 
 	 
-	 ဒီ Model က Application တွေတည်ဆောက်ဖို့ အခြေခံ Infrastructure ကို လျင်မြန်စွာ အပ်ဒိတ်လုပ်နိုင်ပြီး ကိုယ်ပိုင် Control နဲ့ Customization ပိုင်းမှာ တော်တော်လေး Flexible ဖြစ်ပါတယ်။ ဒါပေမယ့် Servers တွေရဲ့ Configuration နဲ့ Management ပိုင်းက User အဆင်ပြေစေဖို့ လေ့လာမှုတွေ လိုအပ်တတ်ပါတယ်။
+	 ဒီ Model က Application တွေတည်ဆောက်ဖို့ အခြေခံ Infrastructure ကို လျင်မြန်စွာ Update လုပ်နိုင်ပြီး ကိုယ်ပိုင် Control နဲ့ Customization ပိုင်းမှာ တော်တော်လေး Flexible ဖြစ်ပါတယ်။ ဒါပေမယ့် Servers တွေရဲ့ Configuration နဲ့ Management ပိုင်းက User အဆင်ပြေစေဖို့ လေ့လာမှုတွေ လိုအပ်တတ်ပါတယ်။
 	 
 	 Examples: AWS EC2, Rackspace, Google compute engine, Digital Ocean
 
